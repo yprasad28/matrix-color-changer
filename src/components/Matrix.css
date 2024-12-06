@@ -1,0 +1,34 @@
+.matrix{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    gap: 15px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+h1{
+    color: black;
+    margin: auto;
+    
+
+
+}
+
+.container{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 220px;
+    
+}
